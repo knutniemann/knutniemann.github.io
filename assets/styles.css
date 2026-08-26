@@ -212,6 +212,7 @@ footer a { color: var(--white); }
   .hero-grid, .about-grid, .news-layout { grid-template-columns: 1fr; }
   .hero-grid { gap: 55px; }
   .contact-card { max-width: 480px; }
+  .profile-photo { margin-inline: auto; }
   .paper-grid { grid-template-columns: 1fr; }
 }
 
