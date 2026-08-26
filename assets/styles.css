@@ -140,17 +140,15 @@ h3 { margin-bottom: 13px; font-size: clamp(23px, 2.4vw, 30px); line-height: 1.2;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
 }
-.monogram {
-  display: grid;
-  width: 90px;
-  height: 90px;
+.profile-photo {
+  display: block;
+  width: 112px;
+  height: 112px;
   margin-bottom: 26px;
-  place-items: center;
-  color: var(--white);
-  background: linear-gradient(145deg, var(--navy), #294f6e);
+  border: 4px solid var(--white);
   border-radius: 50%;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 29px;
+  object-fit: cover;
+  object-position: 66% center;
   box-shadow: 0 12px 30px rgba(23, 50, 77, 0.2);
 }
 .contact-card p { margin: 0; color: var(--muted); }
