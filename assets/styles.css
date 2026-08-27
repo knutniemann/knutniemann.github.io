@@ -109,7 +109,6 @@ h3 { margin-bottom: 13px; font-size: clamp(23px, 2.4vw, 30px); line-height: 1.2;
 .hero-details dt { color: var(--navy-deep); font-size: 14px; font-weight: 800; }
 .hero-details dd { margin: 0; color: var(--muted); font-size: 15px; }
 .hero-details a { font-weight: 700; }
-.hero-details .referee { white-space: nowrap; }
 .market-note { display: flex; align-items: center; gap: 10px; margin: 0; color: var(--navy); font-size: 15px; font-weight: 700; }
 .market-note span { width: 9px; height: 9px; background: var(--accent); border-radius: 50%; box-shadow: 0 0 0 5px rgba(189, 91, 61, 0.12); }
 .contact-card {
@@ -184,6 +183,11 @@ h3 { margin-bottom: 13px; font-size: clamp(23px, 2.4vw, 30px); line-height: 1.2;
 .teaching-footer p { margin: 0; }
 .teaching-footer a { font-weight: 800; }
 
+.references-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.reference-card { padding: clamp(25px, 3vw, 34px); border: 1px solid var(--line); background: var(--white); border-radius: var(--radius); }
+.reference-card h3 { margin-bottom: 10px; font-size: clamp(22px, 2.1vw, 27px); }
+.reference-card p { margin: 0; color: var(--muted); }
+
 .news-layout { display: block; }
 .timeline { margin: 0; padding: 0; list-style: none; }
 .timeline li { display: grid; grid-template-columns: 150px 1fr; gap: 24px; padding: 22px 0; border-bottom: 1px solid var(--line); }
@@ -200,7 +204,7 @@ footer a { color: var(--white); }
   .hero-grid { gap: 55px; }
   .contact-card { max-width: 480px; }
   .profile-photo { margin-inline: auto; }
-  .paper-grid, .teaching-grid { grid-template-columns: 1fr; }
+  .paper-grid, .teaching-grid, .references-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 600px) {
