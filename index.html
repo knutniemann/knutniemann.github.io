@@ -13,7 +13,7 @@
   <meta property="og:image" content="https://knutniemann.github.io/assets/portrait.jpg">
   <link rel="canonical" href="https://knutniemann.github.io/">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css?v=20261109-1">
+  <link rel="stylesheet" href="assets/styles.css?v=20261111-1">
   <title>Knut Niemann — Economist</title>
   <script type="application/ld+json">
   {
@@ -52,8 +52,9 @@
       <nav aria-label="Primary navigation">
         <a href="#research">Research</a>
         <a href="#teaching">Teaching</a>
-        <a href="#about">About</a>
-        <a href="#news">News</a>
+        <a class="nav-secondary" href="#about">About</a>
+        <a href="#references">References</a>
+        <a class="nav-secondary" href="#news">News</a>
         <a href="files/Knut_Niemann_CV.pdf">CV</a>
       </nav>
     </div>
@@ -96,21 +97,26 @@
         <article class="paper paper-featured">
           <div class="paper-meta">Job market paper · Single-authored</div>
           <h3><a href="files/Political_Distance_and_Trade.pdf">Political Distance and Trade</a></h3>
-          <p class="paper-result">Trade responsiveness varies across geopolitical environments, with implications for the welfare effects of political realignment.</p>
-          <p>I ask how trade responsiveness to political distance varies across geopolitical environments, and what this means for welfare. Measuring political distance by UN General Assembly voting disagreement, I estimate a structural gravity model for 167 countries over 1966–2020. An increase in political distance equal to the mean within-pair standard deviation is associated with about 3 percent lower trade. The response is delayed rather than anticipatory, consistent with a causal interpretation.</p>
-          <p>In the unrestricted sample, responsiveness peaks in the late Cold War, becomes weak and statistically insignificant during 1995–2007, and strengthens again by 2016–2020 without regaining its peak. Controlling for sanctions attenuates the relationship, while security-related disagreement predicts trade more strongly than human-rights disagreement. This evidence favours a trade-cost interpretation without separately identifying the channels.</p>
-          <p>Under that interpretation, I impose the bilateral political distances observed in 1962 on the 2020 economy, bringing some countries closer and pushing others apart. With 2016–2020 trade responsiveness, welfare falls in about 70 percent of countries, with an unweighted average loss of 0.55 percent. Losses are concentrated in Europe, while the Americas gain on average. Holding the baseline economy, political realignment, trade elasticity, and estimation specification fixed, applying late-Cold-War (1983–1990) responsiveness raises the mean loss to 0.78 percent—about 40 percent larger—and amplifies both gains and losses.</p>
+          <p class="paper-result">Political distance constrained trade most strongly in the late Cold War. Applying that responsiveness to the 2020 economy raises the estimated welfare cost of political realignment.</p>
+          <p>Using UN voting disagreement and a structural gravity model for 167 countries over 1966–2020, I find that a typical within-pair increase in political distance is associated with 3 percent lower trade. The relationship weakens after the Cold War and subsequently recovers only partially. Under a trade-cost interpretation, applying late-Cold-War rather than recent responsiveness to the same political realignment raises the average welfare loss by about 40 percent.</p>
+          <details class="paper-abstract">
+            <summary>Abstract</summary>
+            <p>Amid geopolitical tensions, I quantify how much political distance reduces trade and whether it depends on the geopolitical environment. Measuring political distance by UN General Assembly voting disagreement, I estimate a structural gravity model for 167 countries over 1966–2020. A one-standard-deviation increase in political distance within a country pair is associated with 3 percent lower trade, a quarter of a regional trade agreement's effect. This response is delayed rather than anticipatory, consistent with a causal interpretation. The responsiveness peaked in the late Cold War, was weak and insignificant during 1995–2007, and strengthened again by 2016–2020 without reaching its peak. Under a trade-cost interpretation, I assess the welfare effects of continued political realignment by imposing 1962 political distances in 2020. This brings some countries closer and pushes others apart. With 2016–2020 trade responsiveness, average welfare is half a percent lower; all else equal, late-Cold-War responsiveness increases the loss by almost half.</p>
+          </details>
           <div class="paper-links">
             <a href="files/Political_Distance_and_Trade.pdf">Paper</a>
-            <a href="files/Political_Distance_and_International_Trade_EEA_2026.pdf">Slides</a>
           </div>
         </article>
         <div class="paper-grid">
           <article class="paper">
-            <div class="paper-meta">R&amp;R · AEJ: Macroeconomics</div>
+            <div class="paper-meta">R&amp;R · <a href="https://www.aeaweb.org/journals/mac">AEJ: Macroeconomics</a></div>
             <h3><a href="files/Firm_Expectations_and_News_Micro_v_Macro.pdf">Firm Expectations and News: Micro v Macro</a></h3>
             <p class="coauthors">with <a href="https://www.benjaminborn.de/">Benjamin Born</a>, <a href="https://www.awi.uni-heidelberg.de/de/professuren/wirtschaftspolitik/team/prof-dr-zeno-enders">Zeno Enders</a>, <a href="https://sites.google.com/view/manuelmenkhoff">Manuel Menkhoff</a>, and <a href="https://sites.google.com/site/muellergernot">Gernot J. Müller</a></p>
-            <p>How do firms distinguish news about their own business from news about the aggregate economy? Using German and Italian firm surveys, we relate forecast errors to revisions in expectations and find systematic overreaction to firm-specific news but underreaction to aggregate news. A model of “island illusion,” in which firms underestimate the importance of aggregate developments for their own performance, explains both patterns. Embedding this mechanism in a noisy-information model shows how these expectation errors affect aggregate outcomes.</p>
+            <p>German and Italian firms overreact to firm-specific news but underreact to aggregate news. A model of “island illusion” explains these patterns and traces their aggregate implications.</p>
+            <details class="paper-abstract">
+              <summary>Abstract</summary>
+              <p>To shed light on the expectation formation of firms, we use firm-level data and examine how expectations adjust to news. We classify news as either micro (firm-specific developments) or macro (information about the aggregate economy). Analyzing survey data from Italian and German firms, we consistently find that expectations overreact to micro news but underreact to macro news. Our empirical specification is based on a stylized model of ‘island illusion,’ because of which firms systematically underestimate the importance of aggregate developments for their own performance. This illusion has aggregate implications, which we derive by embedding it into the canonical noisy-information model.</p>
+            </details>
             <div class="paper-links">
               <a href="files/Firm_Expectations_and_News_Micro_v_Macro.pdf">Paper</a>
               <a href="https://cepr.org/publications/dp17768">CEPR</a>
@@ -121,14 +127,22 @@
             <div class="paper-meta">Working paper</div>
             <h3><a href="files/Political_Shocks_Interstate_Migration_and_Geographic_Polarization.pdf">Political Shocks, Interstate Migration, and Geographic Polarization</a></h3>
             <p class="coauthors">with <a href="https://uni-tuebingen.de/fakultaeten/wirtschafts-und-sozialwissenschaftliche-fakultaet/faecher/fachbereich-wirtschaftswissenschaft/wirtschaftswissenschaft/lehrstuehle/volkswirtschaftslehre/international-macroeconomics-and-finance/team/">Jonas Adolph</a></p>
-            <p>We study whether political events change both how many people move and where they go. Combining county-to-county migration flows with 45 close US gubernatorial elections between 1994 and 2014, we compare counties supporting the losing and winning parties in stacked event studies. Outmigration from losing-party counties rises by 3.21 percent over the first five post-election years. Conditional on total departures and destination shocks, migration shifts by 4.02 percent towards strongholds of the losing party relative to winner-party strongholds. The departure response is concentrated in elections with larger ideological gaps between candidates. A migration-selection model and corroborating gravity evidence connect these findings to geographic political sorting.</p>
+            <p>Close US gubernatorial elections increase outmigration from losing-party counties and redirect moves towards the losing party's strongholds. Event studies and a migration-selection model connect these responses to geographic political sorting.</p>
+            <details class="paper-abstract">
+              <summary>Abstract</summary>
+              <p>Geographic political sorting has intensified in the United States, raising the question whether political events shape internal migration in ways that reinforce it. Combining annual county-to-county Internal Revenue Service migration flows with 45 U.S. gubernatorial elections decided by less than five percentage points between 1994 and 2014, we compare locally losing and winning counties in stacked event studies. During the first five post-election years, outmigration from losing counties rises by 3.21 percent relative to winning counties. Conditional on total departures and destination shocks, migration from losing counties shifts by 4.02 percent toward strongholds of the losing party relative to winner-party strongholds. The increase in outmigration is concentrated in races with large candidate-ideology gaps, consistent with larger political shocks moving more residents across the migration threshold. A migration-selection model rationalizes both margins, while gravity estimates showing less migration between politically distant states provide corroborating evidence. Together, the results show that political events can redirect internal migration in a direction consistent with greater geographic sorting.</p>
+            </details>
             <div class="paper-links"><a href="files/Political_Shocks_Interstate_Migration_and_Geographic_Polarization.pdf">Paper</a></div>
           </article>
           <article class="paper">
             <div class="paper-meta">Work in progress</div>
             <h3>Tariffs and Danish Exports: Insights from Three Decades of Microdata</h3>
             <p class="coauthors">with <a href="https://sites.google.com/view/henrikydeandersen/home">Henrik Yde Andersen</a>, <a href="https://sites.google.com/site/mathiaswklein/home">Mathias Klein</a>, and <a href="https://sites.google.com/site/thomaskrauseresearch/">Thomas Krause</a></p>
-            <p>How do exporters in a small open economy respond to foreign tariff changes? We link Danish customs records, firm balance sheets, and destination-specific tariffs from 1993 to 2021. Comparing the same firm's exports of a product across destinations, we use local projections to trace adjustments in export revenues, quantities, and unit values. Preliminary results suggest that higher foreign tariffs reduce both quantities and export unit values, consistent with exporters absorbing part of the tariff increase. We also examine employment, investment, and destination diversification, with initial evidence pointing to limited domestic adjustment and possible expansion into additional markets.</p>
+            <p>Using three decades of Danish microdata, we study exporters' responses to foreign tariffs. Preliminary evidence suggests declines in export quantities and unit values, consistent with exporters absorbing part of the tariff increase.</p>
+            <details class="paper-abstract">
+              <summary>Project details</summary>
+              <p>How do exporters in a small open economy respond to foreign tariff changes? We link Danish customs records, firm balance sheets, and destination-specific tariffs from 1993 to 2021. Comparing the same firm's exports of a product across destinations, we use local projections to trace adjustments in export revenues, quantities, and unit values. Preliminary results suggest that higher foreign tariffs reduce both quantities and export unit values, consistent with exporters absorbing part of the tariff increase. We also examine employment, investment, and destination diversification, with initial evidence pointing to limited domestic adjustment and possible expansion into additional markets.</p>
+            </details>
             <div class="paper-links"><a href="files/Tariffs_and_Danish_Exports_Slides.pdf">Slides</a></div>
           </article>
           <article class="paper">
@@ -158,28 +172,20 @@
             <div><dt>Location</dt><dd>Tübingen, Germany</dd></div>
           </dl>
         </div>
-        <div class="experience-grid">
-          <article class="experience-card">
-            <h3>Earlier experience</h3>
+        <div class="profile-details">
+          <p><strong>Research tools:</strong> Stata, MATLAB, R, and LaTeX.</p>
+          <p><strong>Languages:</strong> German (native), English (fluent), Italian (basic), and French (basic).</p>
+          <p><strong>Refereeing:</strong> <em>Economics Letters</em> and <em>European Economic Review</em>.</p>
+          <p><strong>Service:</strong> Board member and treasurer, SSC Tübingen e.V., since 2017; responsible for the finances of a multi-sport club with more than 1,000 members.</p>
+          <details class="background-details">
+            <summary>Earlier experience and travel support</summary>
             <ul>
               <li>Internship, Directorate General Economics, Deutsche Bundesbank, Frankfurt, May–September 2022.</li>
               <li>Research internship, Institute for Applied Economic Research (IAW), Tübingen, March–June 2016.</li>
               <li>Visiting student, University of Massachusetts Amherst, September 2014–May 2015.</li>
-            </ul>
-          </article>
-          <article class="experience-card">
-            <h3>Service and awards</h3>
-            <ul>
-              <li>Refereeing: <em>Economics Letters</em> and <em>European Economic Review</em>.</li>
               <li>Conference travel support, Friedrich-List-Stiftung, 2026, for the XXVII Conference on International Economics.</li>
-              <li>Board member and treasurer, SSC Tübingen e.V., since 2017; responsible for the finances of a multi-sport club with more than 1,000 members.</li>
             </ul>
-          </article>
-          <article class="experience-card">
-            <h3>Languages and tools</h3>
-            <p>German (native), English (fluent), Italian (basic), and French (basic).</p>
-            <p>Stata, MATLAB, R, LaTeX, Microsoft Office, and Codex / agentic AI workflows.</p>
-          </article>
+          </details>
         </div>
       </div>
     </section>
@@ -192,28 +198,31 @@
         <div class="teaching-grid">
           <article class="teaching-card">
             <h3>Advanced International Trade Theory</h3>
-            <p>Master's course, lecture and tutorial, 2024–2026.</p>
-            <p class="evaluation-label">Course / instructor evaluations:</p>
+            <p>Master's course, 2024–2026.<br>Responsibilities: lectures and tutorial coordination.</p>
+            <p class="course-material"><a href="files/E421____International_Trade_Theory_ST_2026-62.pdf">Syllabus (Summer 2026, PDF)</a></p>
+            <p class="evaluation-label">Mean course / instructor ratings:</p>
             <ul class="evaluation-results">
-              <li>2025: 1.6 / 1.2</li>
-              <li>2026: 1.7 / 1.5</li>
+              <li>Summer 2025: 1.6 / 1.2 <span class="evaluation-context">(9 responses; 45% response rate)</span></li>
+              <li>Summer 2026: 1.7 / 1.5</li>
             </ul>
           </article>
           <article class="teaching-card">
             <h3>Firms in the Global Economy</h3>
-            <p>Bachelor's course, lecture and tutorial, 2023–2026.</p>
-            <p class="evaluation-label">Course / instructor evaluations:</p>
+            <p>Bachelor's course, 2023–2026.<br>Responsibilities: lectures and tutorials.</p>
+            <p class="course-material"><a href="files/E323____Firms_in_the_Global_Economy_WT_2627-2.pdf">Syllabus (Winter 2026/27, PDF)</a></p>
+            <p class="evaluation-label">Mean course / instructor ratings:</p>
             <ul class="evaluation-results">
-              <li>2024: 2.0 / 1.3</li>
-              <li>2025: 1.6 / 1.1</li>
+              <li>Winter 2024/25: 2.0 / 1.3 <span class="evaluation-context">(12 responses; 30% response rate)</span></li>
+              <li>Winter 2025/26: 1.6 / 1.1 <span class="evaluation-context">(14 responses; 46.7% response rate)</span></li>
             </ul>
           </article>
           <article class="teaching-card">
             <h3>Globalization, Digitalization, and Firm Behavior</h3>
-            <p>Co-taught master's seminar, 2024–2026.</p>
-            <p class="evaluation-label">Course / instructor evaluations:</p>
+            <p>Master's seminar, 2024–2026.<br>Responsibilities: co-teaching.</p>
+            <p class="course-material"><a href="files/E520_Master_Seminar_WT_2526-23.pdf">Syllabus (Winter 2025/26, PDF)</a></p>
+            <p class="evaluation-label">Mean course / instructor ratings:</p>
             <ul class="evaluation-results">
-              <li>2025: 1.2 / 1.1</li>
+              <li>Winter 2025/26: 1.2 / 1.1 <span class="evaluation-context">(9 responses; 90% response rate)</span></li>
             </ul>
           </article>
           <article class="teaching-card">
@@ -240,19 +249,19 @@
         <div class="references-grid">
           <article class="reference-card">
             <h3><a href="https://sites.google.com/site/muellergernot">Gernot J. Müller</a></h3>
-            <p>University of Tübingen<br>Tübingen, Germany</p>
+            <p>University of Tübingen<br>Tübingen, Germany<br><a href="mailto:gernot.mueller@uni-tuebingen.de">gernot.mueller@uni-tuebingen.de</a></p>
           </article>
           <article class="reference-card">
             <h3><a href="https://sites.google.com/view/felix-strobel">Felix Strobel</a></h3>
-            <p>Deutsche Bundesbank<br>Frankfurt, Germany</p>
+            <p>Deutsche Bundesbank<br>Frankfurt, Germany<br><a href="mailto:felix.strobel@bundesbank.de">felix.strobel@bundesbank.de</a></p>
           </article>
           <article class="reference-card">
             <h3><a href="https://annagumpert.wordpress.com/">Anna Gumpert</a></h3>
-            <p>University of Tübingen<br>Tübingen, Germany</p>
+            <p>University of Tübingen<br>Tübingen, Germany<br><a href="mailto:anna.gumpert@uni-tuebingen.de">anna.gumpert@uni-tuebingen.de</a></p>
           </article>
           <article class="reference-card">
             <h3><a href="https://sites.google.com/site/thomaskrauseresearch/">Thomas Krause</a></h3>
-            <p>Danmarks Nationalbank<br>Copenhagen, Denmark</p>
+            <p>Danmarks Nationalbank<br>Copenhagen, Denmark<br><a href="mailto:thk@nationalbanken.dk">thk@nationalbanken.dk</a></p>
           </article>
         </div>
       </div>
@@ -265,11 +274,11 @@
         </div>
         <ol class="timeline">
           <li><time datetime="2026-09">September 2026</time><p>Presented <a href="files/Political_Distance_and_Trade.pdf"><em>Political Distance and Trade</em></a> at the <a href="https://etsg.org/conferences/etsg-2026-exeter/">European Trade Study Group (ETSG) conference</a> at the University of Exeter.</p></li>
-          <li><time datetime="2026-08">August 2026</time><p>Presented <a href="files/Political_Distance_and_Trade.pdf"><em>Political Distance and Trade</em></a> at the <a href="https://www.eea-esem-congresses.org/">EEA–ESEM Meeting in Dublin</a>.</p></li>
+          <li><time datetime="2026-08">August 2026</time><p>Presented <a href="files/Political_Distance_and_Trade.pdf"><em>Political Distance and Trade</em></a> at the <a href="https://eeassoc.org/events/eea-esem-dublin-2026">EEA-ESEM Meeting in Dublin</a>.</p></li>
           <li><time datetime="2026-06">June 2026</time><p>Started as a research consultant with <a href="https://www.nationalbanken.dk/en/research">Danmarks Nationalbank</a>, continuing the work on tariffs and Danish exports.</p></li>
           <li><time datetime="2026-05">May 2026</time><p>Presented work on <a href="files/Political_Distance_and_Trade.pdf">political distance and trade</a> and on <a href="files/Political_Shocks_Interstate_Migration_and_Geographic_Polarization.pdf">US interstate migration</a> at the <a href="https://aeefi.com/en/cie/">XXVII Conference on International Economics</a>.</p></li>
           <li><time datetime="2026-04">April–May 2026</time><p>Visiting researcher in the <a href="https://www.nationalbanken.dk/en/research">Research Unit at Danmarks Nationalbank</a>.</p></li>
-          <li><time datetime="2026-02">February 2026</time><p><a href="files/Firm_Expectations_and_News_Micro_v_Macro.pdf"><em>Firm Expectations and News: Micro v Macro</em></a> received a revise and resubmit at the <em>American Economic Journal: Macroeconomics</em>.</p></li>
+          <li><time datetime="2026-02">February 2026</time><p><a href="files/Firm_Expectations_and_News_Micro_v_Macro.pdf"><em>Firm Expectations and News: Micro v Macro</em></a> received a revise and resubmit at the <a href="https://www.aeaweb.org/journals/mac"><em>American Economic Journal: Macroeconomics</em></a>.</p></li>
         </ol>
       </div>
     </section>
